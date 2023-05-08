@@ -1,0 +1,110 @@
+.main-panel {
+    display: flex;
+    margin: 32px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    border-style: solid;
+}
+
+.panel__add {
+    width: 400px;
+
+    border-width: 2px 1px 2px 2px;
+    border-radius: 10px 0 0 10px;
+}
+
+.panel__list {
+    min-width: 400px;
+
+    border-width: 2px 2px 2px 1px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.panel__list-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+    
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border-radius: 10px;
+    height: 30px;
+    border-color: white;
+    border-width: 1px;
+    
+    padding: 4px 8px;
+    
+    font-family: Inter, system-ui;
+    font-size: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.panel__submit-button {
+    margin-top: 16px;
+}
+
+.panel__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    width: 100vw;
+}
+
+.student {
+    padding: 8px 16px;
+
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.student__grades {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.student__grade {
+    height: 40px;
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+.red {
+    background-color: #4c061d;
+}
+
+.orange {
+    background-color: #DE1A1A;
+}
+
+.yellow {
+    background-color: #F9A03F;
+}
+
+.green {
+    background-color: #79B473;
+}
+
+.dark-green {
+    background-color: #14342B;
+}
